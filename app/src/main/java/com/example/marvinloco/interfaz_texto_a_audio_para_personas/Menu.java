@@ -25,18 +25,6 @@ public class Menu extends AppCompatActivity {
                 finish();
             }
         });
-
-        btn_2 = (Button) findViewById(R.id.btn_2);
-
-        btn_2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent itemintent = new Intent(Menu.this, Principal.class);
-                Menu.this.startActivity(itemintent);
-                finish();
-            }
-        });
-
     }
 }
 

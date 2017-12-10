@@ -4,7 +4,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
-
+android:background="@drawable/color"
 android:orientation="vertical"
 tools:context="com.example.marvinloco.interfaz_texto_a_audio_para_personas.Audio">
 
@@ -13,6 +13,7 @@ tools:context="com.example.marvinloco.interfaz_texto_a_audio_para_personas.Audio
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:text="ESCRIBE YO HABLO POR TI"
+        android:textColor="@android:color/background_light"
         android:textSize="25sp"
         android:typeface="monospace" />
 
@@ -28,7 +29,8 @@ tools:context="com.example.marvinloco.interfaz_texto_a_audio_para_personas.Audio
             android:layout_height="wrap_content"
             android:layout_gravity="top|left"
             android:hint="Escribe lo que piensas"
-            android:inputType="textMultiLine" />
+            android:inputType="textMultiLine"
+            android:textColorHint="@android:color/background_light" />
     </ScrollView>
 
 <LinearLayout
@@ -42,7 +44,8 @@ tools:context="com.example.marvinloco.interfaz_texto_a_audio_para_personas.Audio
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="Escuchame Ingles" />
+        android:text="Escuchame Ingles"
+        android:textColor="@android:color/black" />
 
     <Button
         android:id="@+id/btnSpanish"
