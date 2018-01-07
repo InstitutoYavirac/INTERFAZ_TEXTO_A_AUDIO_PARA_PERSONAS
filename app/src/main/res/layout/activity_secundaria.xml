@@ -14,10 +14,10 @@ tools:context="com.example.marvinloco.interfaz_texto_a_audio_para_personas.Secun
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/servi"
         android:background="@android:color/transparent"
-        android:layout_marginTop="11dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="11dp"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="11dp" />
+        android:layout_alignParentEnd="true" />
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -26,9 +26,10 @@ tools:context="com.example.marvinloco.interfaz_texto_a_audio_para_personas.Secun
         android:layout_marginLeft="35dp"
         android:background="@android:color/transparent"
         app:srcCompat="@drawable/servicio1"
-        android:layout_marginEnd="21dp"
-        android:layout_above="@+id/imageButton6"
-        android:layout_alignEnd="@+id/imageButton5" />
+        android:layout_marginEnd="17dp"
+        android:layout_below="@+id/imageButton5"
+        android:layout_alignEnd="@+id/imageButton5"
+        android:layout_marginTop="15dp" />
 
 
     <ImageButton
@@ -37,9 +38,9 @@ tools:context="com.example.marvinloco.interfaz_texto_a_audio_para_personas.Secun
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/son"
         android:background="@android:color/transparent"
-        android:layout_centerVertical="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="53dp" />
+        android:layout_marginStart="53dp"
+        android:layout_below="@+id/imageButton"
+        android:layout_alignParentStart="true" />
 
     <ImageButton
         android:id="@+id/imageButton7"
@@ -47,10 +48,10 @@ tools:context="com.example.marvinloco.interfaz_texto_a_audio_para_personas.Secun
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/somos1"
         android:background="@android:color/transparent"
-        android:layout_marginTop="13dp"
+        android:layout_marginTop="11dp"
         android:layout_below="@+id/imageButton6"
-        android:layout_alignEnd="@+id/imageButton6"
-        android:layout_marginEnd="17dp" />
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="12dp" />
 
     <Button
         android:id="@+id/btn_3"
