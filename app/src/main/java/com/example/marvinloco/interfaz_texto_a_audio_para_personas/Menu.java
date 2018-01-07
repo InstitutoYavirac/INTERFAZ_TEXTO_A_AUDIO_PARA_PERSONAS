@@ -4,18 +4,18 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.ImageButton;
+import android.widget.Button;
 
 public class Menu extends AppCompatActivity {
 
-    ImageButton btn_4;
+    Button btn_4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
 
-        btn_4 = (ImageButton) findViewById(R.id.btn_4);
+        btn_4 = (Button) findViewById(R.id.btn_4);
 
         btn_4.setOnClickListener(new View.OnClickListener() {
             @Override
